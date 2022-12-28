@@ -27,6 +27,12 @@ using OOP._101.Draft;
 
         new clsHome(234); //234 değeri class a geçilecek olan parametre değeridir
 
+        // OverLoad constructor örneği.
+        Console.WriteLine("Overload Constructor" + "\n");
+        new clsHomeOL();  // Class çalış ama parametresiz.
+        new clsHomeOL(675); // tek parametreli ctor
+        new clsHomeOL(986, "Wall Street"); // çift parametreli ctor
+
         Console.ReadKey();
     }
   
